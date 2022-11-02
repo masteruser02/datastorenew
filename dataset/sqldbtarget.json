@@ -1,0 +1,17 @@
+{
+	"name": "sqldbtarget",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "CampaignAnalytics"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
